@@ -11,6 +11,10 @@
 
   %body{ class: page_classes }
     #wrapper
-      %h1 tbaba.jp
+      #header
+        %h1 tbaba.jp
 
-      = yield
+      #contents= yield
+
+      #footer
+        %p Copyright 2013 tbaba.
